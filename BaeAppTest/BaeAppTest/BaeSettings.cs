@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using IAScience;
 using Newtonsoft.Json;
-
+ 
 namespace BaeApp
 	{
 	public class BaeSettings

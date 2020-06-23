@@ -12,5 +12,5 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
     </StackLayout>
-
+ 
 </ContentPage>

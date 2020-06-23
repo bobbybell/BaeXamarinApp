@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
-
+ 
 namespace BaeApp
 	{
 	// Learn more about making custom code visible in the Xamarin.Forms previewer

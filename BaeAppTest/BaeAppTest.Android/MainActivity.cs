@@ -13,7 +13,7 @@ using Android.Content;
 using Android.Provider;
 using Java.IO;
 using System.Collections.Generic;
-
+ 
 namespace BaeApp.Droid
 	{
 	[Activity(Label = "BaeApp", Icon = "@mipmap/icon", Theme = "@style/MainTheme",

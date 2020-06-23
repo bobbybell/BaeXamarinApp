@@ -40,7 +40,7 @@
 			this.textBox1.Multiline = true;
 			this.textBox1.Name = "textBox1";
 			this.textBox1.ReadOnly = true;
-			this.textBox1.Size = new System.Drawing.Size(776, 397);
+			this.textBox1.Size = new System.Drawing.Size(827, 442);
 			this.textBox1.TabIndex = 0;
 			// 
 			// testButton
@@ -57,7 +57,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(851, 495);
 			this.Controls.Add(this.testButton);
 			this.Controls.Add(this.textBox1);
 			this.Name = "Form1";
