@@ -1,0 +1,92 @@
+﻿{
+  "streams": [
+    {
+      "name": "Employee",
+      "items": [
+        {"type": "video","src": "introduction_zoe.mp4"},
+        {
+          "type": "question",
+          "src": "abrasive1"
+        },
+        {
+          "type": "questions",
+          "src": [ "abrasive1", "abrasive2" ]
+        }
+      ]
+    },
+    {
+      "name": "Contractor",
+      "items": [
+        {
+          "type": "video",
+          "src": "introduction_zoe.mp4"
+        },
+        {
+          "type": "question",
+          "src": "confinedSpaces1"
+        },
+        {
+          "type": "questions",
+          "src": [ "confinedSpaces1", "confinedSpaces2" ]
+        }
+      ]
+    }
+  ],
+  "login": {},
+  "interfaceText": {
+    "certificatePrinting": "You have passed. Please print your certificate by clicking here:",
+    "clickToLogout": "Once your certificate is printed log out using the LOG OUT button above",
+    "congratulations": "CONGRATULATIONS!",
+    "continue": "NEXT STEP",
+    "correctPrompt": "You have answered correctly.",
+    "failed1": "Sorry, you have not passed the test.",
+    "failed2": "Please report to your CRC supervisor.",
+    "failed3": "CLICK HERE TO EXIT",
+    "incorrectPrompt1": "You have answered incorrectly.",
+    "incorrectPrompt2": "The correct answer is shown.",
+    "notPrinted": "Your certificate has not been printed\r\nAre you sure you want to log out?",
+    "notPrintedNo": "NO",
+    "notPrintedYes": "YES",
+    "questionOf": "Question <q> of <n>",
+    "questionPrompt": "Read the question below and select your choice of answer.",
+    "redo1multiple": "You need to repeat some sections.",
+    "redo1single": "You need to repeat a section.",
+    "redo2multiple": "Please watch the films carefully and answer the questions.",
+    "redo2single": "Please watch the film carefully and answer the questions.",
+    "redo3": "CLICK HERE TO CONTINUE",
+    "streamChoiceOption1": "An employee/Agency",
+    "streamChoiceOption2": "Contractor (Low Risk)",
+    "streamChoiceOption3": "A contractor",
+    "streamChoiceOption4": "Facilities",
+    "streamChoicePrompt1": "ARE YOU:",
+    "streamChoicePrompt2": "Please click the appropriate button above."
+  },
+  "questions": {
+    "abrasive1": {
+      "question": "Before using an abrasive wheel what should you check?",
+      "answers": [ "Your supervisor is watching you", "The safety guard is in place", "You have a Permit to Work" ],
+      "correct": 1
+    },
+    "abrasive2": {
+      "question": "What should you always wait for before using an abrasive wheel?",
+      "answers": [ "The wheel has reached full speed", "The wheel has slowed down", "The wheel has stopped" ],
+      "correct": 0
+    },
+    "confinedSpaces1": {
+      "answers": [ "Work alone", "Work in pairs", "Have a Permit to Work" ],
+      "correct": 0,
+      "question": "What must you not do when working in a confined space?"
+    },
+    "confinedSpaces2": {
+      "answers": [
+        "You have no choice",
+        "You have been trained and authorised to do so and have\\na Permit to Work",
+        "A safety harness"
+      ],
+      "correct": 1,
+      "question": "You should only enter a confined space if:"
+    }
+
+
+  }
+}
