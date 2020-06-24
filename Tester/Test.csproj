@@ -49,8 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\BaeAppTest\BaeAppTest\Question.cs">
+    <Compile Include="..\BaeApp\BaeApp\Config.cs">
+      <Link>Config.cs</Link>
+    </Compile>
+    <Compile Include="..\BaeApp\BaeApp\Question.cs">
       <Link>Question.cs</Link>
+    </Compile>
+    <Compile Include="..\BaeApp\BaeApp\Utility.cs">
+      <Link>Utility.cs</Link>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

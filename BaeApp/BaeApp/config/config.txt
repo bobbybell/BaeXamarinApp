@@ -1,0 +1,30 @@
+﻿# Comments
+video_default_extension mp4			# added to video items that don't have an extension
+retry_option end					# none, immediate
+
+# v for video, q for question, g for group
+# 
+stream Employee
+g group1
+
+stream Contractor
+g group1
+
+# group definition to save repeating the same list of items in streams, the items can be over several lines and must end with a blank line
+group group1
+v introduction_zoe,login,v howWeWork,v sheEssentials,v beforeYouEnter,v contacts,v fireAwareness,v vehicles,v sheEssentialsPack,
+v take5AndRedCard,v smoking,q contacts,q fireAwareness,q vehicles,q smoking,v summary
+
+# question format
+# first line is		question <name>
+# Question on 2nd line, answers on 3rd separated by |. The correct answer starts with *
+# Questions can have the same name for retrying on fail, the first one will be used on the first pass, the next on the second pass
+
+question abrasive
+Before using an abrasive wheel what should you check?
+Your supervisor is watching you|*The safety guard is in place|You have a Permit to Work
+
+question abrasive
+What should you always wait for before using an abrasive wheel?
+*The wheel has reached full speed|The wheel has slowed down|The wheel has stopped
+

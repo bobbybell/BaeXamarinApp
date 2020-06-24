@@ -59,5 +59,32 @@ namespace IAScience
 
 			return true;
 			}
+		public static string SafeSubstring(string srcString, int startChar)
+			{
+			if (startChar < 0)
+				startChar = 0;
+			return srcString.Length <= startChar ? "" : srcString.Substring(startChar);
+			}
+		public static string SafeSubstring(string srcString, int startChar, int length)
+			{
+			if (length <= 0)
+				return "";
+			if (startChar < 0)
+				startChar = 0;
+
+			if (startChar >= srcString.Length)
+				return "";
+
+			if (srcString.Length - startChar <= length)
+				return srcString.Substring(startChar);
+			else
+				return srcString.Substring(startChar, length);
+			}
+		public static string SafeRightString(string srcString, int length)
+			{
+			if (length <= 0)
+				return "";
+			return srcString.Length <= length ? srcString : srcString.Substring(srcString.Length - length, length);
+			}
 		}
 	}

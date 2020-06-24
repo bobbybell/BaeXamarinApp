@@ -1,37 +1,20 @@
 ﻿{
-  "streams": [
-    {
-      "name": "Employee",
-      "items": [
-        {"type": "video","src": "introduction_zoe.mp4"},
-        {
-          "type": "question",
-          "src": "abrasive1"
-        },
-        {
-          "type": "questions",
-          "src": [ "abrasive1", "abrasive2" ]
-        }
-      ]
+  "streams": {
+    "employee": {
+      "items": [ "video introduction_zoe.mp4", "login", "section section1", "section section2" ]
     },
-    {
-      "name": "Contractor",
-      "items": [
-        {
-          "type": "video",
-          "src": "introduction_zoe.mp4"
-        },
-        {
-          "type": "question",
-          "src": "confinedSpaces1"
-        },
-        {
-          "type": "questions",
-          "src": [ "confinedSpaces1", "confinedSpaces2" ]
-        }
-      ]
+    "contractor": {
+      "items": []
     }
-  ],
+  },
+
+  "sections": {
+    "section1": {
+      "passmark": 2,
+      "items": [""]
+    },
+    "section2": {}
+  },
   "login": {},
   "interfaceText": {
     "certificatePrinting": "You have passed. Please print your certificate by clicking here:",

@@ -108,7 +108,7 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BaeAppTest\BaeApp.csproj">
+    <ProjectReference Include="..\BaeApp\BaeApp.csproj">
       <Project>{47707CA3-19AA-4FF3-8122-4A666764C30F}</Project>
       <Name>BaeApp</Name>
     </ProjectReference>

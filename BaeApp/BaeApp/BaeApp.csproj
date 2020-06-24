@@ -12,10 +12,12 @@
 
   <ItemGroup>
     <None Remove="config\config.json" />
+    <None Remove="config\config.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="config\config.json" />
+    <EmbeddedResource Include="config\config.txt" />
   </ItemGroup>
 
   <ItemGroup>
